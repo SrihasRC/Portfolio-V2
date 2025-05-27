@@ -1,7 +1,7 @@
 import { Mail } from "lucide-react";
 import Link from "next/link";
 import React from "react";
-import { SiGithub, SiInstagram, SiLinkedin, SiMaildotcom } from "react-icons/si";
+import { SiGithub, SiInstagram, SiLinkedin } from "react-icons/si";
 
 const Footer = () => {
   return (
