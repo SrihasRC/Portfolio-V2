@@ -18,8 +18,8 @@ export function FeaturedProjects() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-          {featuredProjects.map((project) => (
-            <div className="h-full">
+          {featuredProjects.map((project, index) => (
+            <div key={index} className="h-full">
               <ProjectCard project={project} className="h-full flex flex-col" />
             </div>
           ))}

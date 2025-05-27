@@ -14,7 +14,7 @@ const Intro = () => {
           </div>
           <div className="flex flex-col items-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl tracking-tight font-bold">
-              Hi!, I&apos;m Srihas
+              Hi, I&apos;m Srihas
             </h1>
             <p className="mt-6 text-muted-foreground text-lg md:text-xl lg:text-2xl max-w-3xl">
               Coding Web. Exploring AI. Practicing Security.
