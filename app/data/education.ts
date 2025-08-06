@@ -10,11 +10,12 @@ export interface Education {
   
 export const education: Education[] = [
     {
-        degree: "B.Tech",
-        school: "Vellore Institue of technology",
+        degree: "B.Tech - CSE Ai & Robotics",
+        school: "Vellore Institute of Technology",
         location: "Chennai",
         startDate: "2023",
         endDate: "Present",
+        cgpa: "8.6",
     },
     {
         degree: "MPC",
