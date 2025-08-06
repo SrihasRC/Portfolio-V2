@@ -51,7 +51,7 @@ const AboutPreview = () => {
             </div>
             <div className="text-center relative z-10">
                 <Button asChild variant="default" size="lg">
-                    <Link href="/contact" className='group flex items-center justify-center gap-1'>
+                    <Link href="/about" className='group flex items-center justify-center gap-1'>
                         Learn More About Me
                         <LucideArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                     </Link>
