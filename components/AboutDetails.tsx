@@ -32,17 +32,17 @@ const AboutDetail = () => {
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Srihas Challa</h1>
               <p className="text-xl text-muted-foreground mb-4">
-                Full-Stack Web Developer & AI/ML Explorer
+                Full-Stack Developer & AI/ML Explorer
               </p>
               <div className="flex flex-wrap gap-2">
                 <Badge variant="outline" className="bg-primary/10">
-                  <Code className="w-3 h-3 mr-2" /> Full-Stack Developer
+                  <Code className="w-3 h-3 mr-2" /> Web Developer
                 </Badge>
                 <Badge variant="outline" className="bg-primary/10">
                   <Brain className="w-3 h-3 mr-2" /> AI/ML Enthusiast
                 </Badge>
                 <Badge variant="outline" className="bg-primary/10">
-                  <ShieldCheck className="w-3 h-3 mr-2" /> Linux & Security Explorer
+                  <ShieldCheck className="w-3 h-3 mr-2" /> Linux Customization Enthusiast
                 </Badge>
               </div>
             </div>
@@ -57,13 +57,13 @@ const AboutDetail = () => {
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
               <p>
-                I enjoy building things and exploring different areas within technology. My journey began with web development, where I developed skills in React, Next.js, and Node.js. Along the way, I expanded my knowledge of backend development, including working with databases, APIs, and authentication. Creating functional and modern web applications is something I&apos;m passionate about.
+                I&apos;m a developer who enjoys building useful and creative tech. My journey began in full-stack web development with a focus on clean UI and responsive design using React, Next.js, and Tailwind CSS. Over time, I grew more confident with backend tools like Node.js, Express, MongoDB, and Supabase.
               </p>
               <p>
-                Recently, I&apos;ve been focusing on AI and machine learning, learning core concepts like neural networks and machine learning fundamentals. I&apos;m also familiar with tools like NumPy and scikit-learn, and I&apos;m excited to integrate AI/ML with web development to build innovative projects. Additionally, I have experience with Linux, using it for customization and command-line tasks.
+                Recently, I&apos;ve been actively working on AI and machine learning—building hands-on projects that combine web development with AI-powered features. I&apos;m using tools like NumPy, scikit-learn, and transformer-based models to experiment with tasks like document summarization and retrieval-augmented generation (RAG).
               </p>
               <p>
-                I&apos;m continuously exploring new technologies and keeping an open mind about my career path. Whether it&apos;s full-stack development, AI, or cybersecurity, I enjoy learning and taking on new challenges. My curiosity drives me to keep improving and building projects that help me grow.
+                I also enjoy customizing my Linux environment and using the command line in my development workflow. I&apos;m always open to learning new things and aim to build meaningful projects that connect web and AI.
               </p>
             </div>
           </Card>

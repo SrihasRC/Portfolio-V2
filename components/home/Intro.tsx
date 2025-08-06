@@ -17,7 +17,7 @@ const Intro = () => {
               Hi, I&apos;m Srihas
             </h1>
             <p className="mt-6 text-muted-foreground text-lg md:text-xl lg:text-2xl max-w-3xl">
-              Coding Web. Exploring AI. Practicing Security.
+              Coding the Web. Exploring AI. Building Ideas.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Button asChild variant="default" size="lg">

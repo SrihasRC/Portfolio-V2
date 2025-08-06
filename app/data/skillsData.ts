@@ -1,5 +1,5 @@
 import { LucideIcon } from "lucide-react";
-import { Code, MonitorSmartphone, Brain } from "lucide-react";
+import { Code, MonitorSmartphone, Brain, Settings } from "lucide-react";
 
 interface SkillCategory {
     icon: LucideIcon;
@@ -11,7 +11,7 @@ export const skillsData: SkillCategory[] = [
   {
     icon: Code,
     title: "Programming",
-    skills: ["Python", "C/C++", "Java", "JavaScript", "TypeScript", "SQL",],
+    skills: ["Python", "C/C++", "Java", "JavaScript", "TypeScript", "SQL"],
   },
   {
     icon: MonitorSmartphone,
@@ -21,6 +21,7 @@ export const skillsData: SkillCategory[] = [
       "TailwindCSS",
       "React.js",
       "Next.js",
+      "ShadCN",
       "Node.js",
       "Express",
       "MongoDB",
@@ -32,12 +33,36 @@ export const skillsData: SkillCategory[] = [
     title: "AI / ML",
     skills: [
       "NumPy",
+      "pandas",
       "scikit-learn",
-      "ML Fundamentals",
       "Regression",
       "Classification",
       "Neural Networks",
+      "Text Embeddings",
+      "Retrieval-Augmented Generation (RAG)",
+      "Prompt Engineering",
+      "Transformers",
+      "Hugging Face",
+      "LLMs",
+      "T5 / FLAN-T5",
+    ],
+  },
+  {
+    icon: Settings,
+    title: "Tools & Platforms",
+    skills: [
+      "Git & GitHub",
+      "Linux / CLI",
+      "VS Code",
+      "Figma",
+      "Postman",
+      "FastAPI",
+      "Vercel",
+      "Docker",
+      "LangChain",
+      "Vector Databases",
     ],
   },
 ];
+
 
