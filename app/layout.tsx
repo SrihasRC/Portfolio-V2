@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { ReactLenis as Lenis } from "@/utils/lenis";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,14 +32,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased font-inter`}
-        suppressHydrationWarning={true}
-      >
-        <Navbar />
-        {children}
-        <Footer />
-      </body>
+      <Lenis root>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased font-inter`}
+          suppressHydrationWarning={true}
+        >
+          <Navbar />
+          {children}
+          <Footer />
+        </body>
+      </Lenis>
     </html>
   );
 }
