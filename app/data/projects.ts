@@ -1,17 +1,17 @@
 interface Project {
-    id: string;
-    title: string;
-    description: string;
-    technologies: string[];
-    category: string;
-    image: string;
-    links: {
-      github?: string;
-      live?: string;
-      demo?: string;
-    };
-    featured?: boolean;
-  }
+  id: string;
+  title: string;
+  description: string;
+  technologies: string[];
+  category: string;
+  image: string;
+  links: {
+    github?: string;
+    live?: string;
+    demo?: string;
+  };
+  featured?: boolean;
+}
 
 export const projectsData: Project[] = [
   {
@@ -61,6 +61,28 @@ export const projectsData: Project[] = [
   },
   {
     id: "3",
+    title: "WellDoc",
+    description:
+      "WellDoc is an AI-powered healthcare dashboard prototype that predicts chronic care patient deterioration risk within 90 days, offering explainable predictions and actionable insights for clinicians.",
+    image: "/projects/welldoc.png",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Python",
+      "JupyterNotebook",
+      "Scikit-learn",
+      "XGBoost",
+      "SHAP",
+    ],
+    category: "AI & Web Development",
+    links: {
+      github: "https://github.com/SrihasRC/WellDOC",
+      live: "https://well-doc-coral.vercel.app/",
+    },
+    featured: true,
+  },
+  {
+    id: "4",
     title: "HexKit",
     description:
       "HexKit is an all-in-one platform for Capture The Flag (CTF) challenges featuring a comprehensive suite of cryptography, encoding, and analysis tools to help you crack the code and capture the flag.",
@@ -71,17 +93,17 @@ export const projectsData: Project[] = [
       "TailwindCSS",
       "ShadCN",
       "Framer Motion",
-      "Crypto-JS"
+      "Crypto-JS",
     ],
     category: "Web Development",
     links: {
       github: "https://github.com/SrihasRC/HexKit",
       live: "https://hex-kit.vercel.app/",
     },
-    featured: true,
+    featured: false,
   },
   {
-    id: "4",
+    id: "5",
     title: "Subscription-Tracker",
     description:
       "A Node.js/Express application to help users manage and track their subscriptions, receive reminders, and keep their spending in check. It features user authentication, subscription management, and email notifications.",
@@ -104,7 +126,7 @@ export const projectsData: Project[] = [
     featured: false,
   },
   {
-    id: "5",
+    id: "6",
     title: "SecureShare",
     description:
       "A secure, browser-based peer-to-peer file sharing application built with React and WebRTC. It allows users to share files directly between browsers without a central server, ensuring privacy and speed.",
@@ -121,6 +143,41 @@ export const projectsData: Project[] = [
     links: {
       github: "https://github.com/SrihasRC/SecureShare",
       live: "https://secureshare11.netlify.app/",
+    },
+    featured: false,
+  },
+  {
+    id: "7",
+    title: "SithWash",
+    description:
+      "SithWash is a hackathon project that demonstrates an anti-money laundering (AML) simulation platform with a unique Star Wars Sith theme.",
+    image: "/projects/sithwash.png",
+    technologies: [
+      "Next.js",
+      "JavaScript",
+      "TailwindCSS",
+      "Three.js",
+      "RandomForest",
+      "Python",
+      "Scikit-learn",
+    ],
+    category: "Web Development",
+    links: {
+      github: "https://github.com/SrihasRC/SithWash",
+      live: "https://sith-wash.vercel.app/",
+    },
+    featured: false,
+  },
+  {
+    id: "8",
+    title: "Pokedex",
+    description:
+      "A simple and interactive Pokedex web app that lets users search and explore Pokémon with details like stats, abilities, and types using the PokéAPI.",
+    image: "/projects/pokedex.png",
+    technologies: ["HTML", "JavaScript", "TailwindCSS", "Node.js", "Express"],
+    category: "Web Development",
+    links: {
+      github: "https://github.com/SrihasRC/Pokedex",
     },
     featured: false,
   },
